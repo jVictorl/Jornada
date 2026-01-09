@@ -60,7 +60,7 @@
 
   <script>
     const game = document.getElementById('game');
-    const nome = "Isabela";
+    const nome = "Isabella";
     const seuNome = "João";
 
     function setScreen(html) {
@@ -78,7 +78,7 @@
         <h1>💫 Capítulo 1</h1>
         <p>Você se lembra do nosso primeiro encontro?</p>
         <div class="options">
-          <button onclick="resp1(1)">Claro, foi inesquecível</button>
+          <button onclick="resp1(1)">Claro</button>
           <button onclick="resp1(2)">Lembro do frio na barriga</button>
         </div>
       `);
@@ -101,7 +101,7 @@
         <div class="options">
           <button onclick="resp2('conversas')">Nossas conversas</button>
           <button onclick="resp2('abraços')">Nossos abraços</button>
-          <button onclick="resp2('tudo')">Tudo isso e mais um pouco</button>
+          <button onclick="resp2('tudo')">De porra nenhuma</button>
         </div>
       `);
     }
@@ -110,7 +110,7 @@
       let msg = '';
       if (tipo === 'conversas') msg = 'Falar com você é meu lugar seguro.';
       if (tipo === 'abraços') msg = 'Seu abraço é onde o mundo fica em paz.';
-      if (tipo === 'tudo') msg = 'Cada detalhe ao seu lado é perfeito.';
+      if (tipo === 'tudo') msg = 'Toma no cu então';
 
       setScreen(`
         <p>💞 ${msg}</p>
@@ -121,7 +121,7 @@
     function final() {
       setScreen(`
         <h1>🌈 Final</h1>
-        <p>Isabela,<br><br>
+        <p>Isabella,<br><br>
         Se esse jogo tivesse infinitas fases,<br>
         eu escolheria jogar todas com você.<br><br>
         Obrigado por existir,<br>
