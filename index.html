@@ -78,7 +78,7 @@
         <h1>💫 Capítulo 1</h1>
         <p>Você se lembra do nosso primeiro encontro?</p>
         <div class="options">
-          <button onclick="resp1(1)">Claro</button>
+          <button onclick="resp1(1)">Não</button>
           <button onclick="resp1(2)">Lembro do frio na barriga</button>
         </div>
       `);
@@ -86,7 +86,7 @@
 
     function resp1(op) {
       const msg = op === 1
-        ? "Desde aquele dia, eu soube que você seria especial."
+        ? "Ta com alzheimer porra?"
         : "Esse frio nunca passou… e eu amo isso.";
       setScreen(`
         <p>💗 ${msg}</p>
@@ -110,7 +110,7 @@
       let msg = '';
       if (tipo === 'conversas') msg = 'Falar com você é meu lugar seguro.';
       if (tipo === 'abraços') msg = 'Seu abraço é onde o mundo fica em paz.';
-      if (tipo === 'tudo') msg = 'Toma no cu então';
+      if (tipo === 'tudo') msg = 'Toma no cu então vai lá com seu outro fds tbm';
 
       setScreen(`
         <p>💞 ${msg}</p>
